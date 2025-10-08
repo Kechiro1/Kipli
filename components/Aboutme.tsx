@@ -16,7 +16,7 @@ const Aboutme = () => {
           ● Interactive Web Applications: Using modern technologies like React and Next.js to build dynamic user experiences.<br />
         </p>
         <p>
-         We believe that collaboration is the key to success. We work closely with each client to ensure results that not only meet but exceed expectations. Let's build your digital presence with us!
+         We believe that collaboration is the key to success. We work closely with each client to ensure results that not only meet but exceed expectations. Lets build your digital presence with us!
         </p>
       </div>
     </div>
