@@ -7,9 +7,15 @@ const Projects = () => {
     <div className="wrapper">
       <Title text="Projects" icon={<FaProjectDiagram />} />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
-        <ProjectCard img="/img/projects/totheapp.jpeg" title="To Do App" />
-        <ProjectCard img="/img/projects/sejukpool.png" title="SejukPool" />
-        <ProjectCard img="/img/projects/ShirkanStore.png" title="Shirkan Store" />
+        <ProjectCard 
+        img="/img/projects/ToTheApp.jpeg" 
+        title="To Do App" />
+        <ProjectCard 
+        img="/img/projects/sejukPool.png" 
+        title="SejukPool" />
+        <ProjectCard 
+        img="/img/projects/ShirkanStore.png" 
+        title="Shirkan Store" />
         <ProjectCard
           img="/img/projects/noorShop.webp"
           title="Noor Shopping"
