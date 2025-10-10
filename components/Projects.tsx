@@ -8,6 +8,12 @@ import reactBD from "../public/img/projects/reactBD.png";
 import dashboard from "../public/img/projects/dashboard.webp";
 import Image from "next/image";
 import ProjectCard from "./ProjectCard";
+import ToTheApp from "../public/img/projects/totheapp.jpeg";
+import sejukPool from "../public/img/projects/sejukpool.png";
+import shirkanStore from "../public/img/projects/ShirkanStore.png";
+
+
+
 
 const Projects = () => {
   return (
@@ -15,19 +21,16 @@ const Projects = () => {
       <Title text="Projects" icon={<FaProjectDiagram />} />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
         <ProjectCard
-          img={amazonClone.src}
-          title="Amazon Clone"
-          link="https://amazonclone.reactbd.com/"
+          img={ToTheApp.src}
+          title="To Do App"
         />
         <ProjectCard
-          img={reactBD.src}
-          title="Cyber Security"
-          link="https://reactbd.com/"
+          img={sejukPool.src}
+          title="SejukPool"
         />
         <ProjectCard
-          img={cyberBlog.src}
-          title="Cyber Security"
-          link="https://blog.reactbd.com/"
+          img={shirkanStore.src}
+          title="Shirkan Store"
         />
         <ProjectCard
           img={noorShop.src}
