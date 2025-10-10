@@ -1,50 +1,27 @@
 import { FaProjectDiagram } from "react-icons/fa";
 import Title from "./Title";
-import amazonClone from "../public/img/projects/amazonClone.webp";
-import cyberBlog from "../public/img/projects/cyberBlog.webp";
-import noorShop from "../public/img/projects/noorShop.webp";
-import dynamicPortfolio from "../public/img/projects/dynamicPortfolio.png";
-import reactBD from "../public/img/projects/reactBD.png";
-import dashboard from "../public/img/projects/dashboard.webp";
-import Image from "next/image";
 import ProjectCard from "./ProjectCard";
-import ToTheApp from "../public/img/projects/totheapp.jpeg";
-import sejukPool from "../public/img/projects/sejukpool.png";
-import shirkanStore from "../public/img/projects/ShirkanStore.png";
-
-
-
 
 const Projects = () => {
   return (
     <div className="wrapper">
       <Title text="Projects" icon={<FaProjectDiagram />} />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
+        <ProjectCard img="/img/projects/totheapp.jpeg" title="To Do App" />
+        <ProjectCard img="/img/projects/sejukpool.png" title="SejukPool" />
+        <ProjectCard img="/img/projects/ShirkanStore.png" title="Shirkan Store" />
         <ProjectCard
-          img={ToTheApp.src}
-          title="To Do App"
-        />
-        <ProjectCard
-          img={sejukPool.src}
-          title="SejukPool"
-        />
-        <ProjectCard
-          img={shirkanStore.src}
-          title="Shirkan Store"
-        />
-        <ProjectCard
-          img={noorShop.src}
+          img="/img/projects/noorShop.webp"
           title="Noor Shopping"
           link="https://orebishopping.reactbd.com/"
         />
         <ProjectCard
-          img={dynamicPortfolio.src}
+          img="/img/projects/dynamicPortfolio.png"
           title="Dynamic Portfolio"
           link="https://amazonclone.reactbd.com/"
         />
-
         <ProjectCard
-          img={dashboard.src}
+          img="/img/projects/dashboard.webp"
           title="Dashboard"
           link="https://orebishopping.reactbd.com/"
         />
